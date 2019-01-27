@@ -143,7 +143,7 @@ $(document).ready(function() {
                   //animate object, scroll top to the variable targetPosition
                                               //- 50 means if you click on say "skill" link, your "50" points just up the actual pageYOffset
                                                           //speed of animate animation
-    $("html, body").animate({scrolltop: targetPosition - 50}, "slow");
+    $("html, body").animate({scrollTop: targetPosition - 50}, "slow");
   });
 
 //this is the nav window that will basiclly
